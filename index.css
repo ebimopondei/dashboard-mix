@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+:root {
+    --primary-color: #10B981;
+    --background-light: #F3F4F6;
+    --background-dark: #000000;
+}
+
+.dark {
+    --primary-color: #10B981;
+    --background-light: #000000;
+    --background-dark: #F3F4F6;
+}
+
+
+@theme inline {
+    --color-primary: #10B981;
+    --color-background-light: #F3F4F6;
+    --color-background-dark: #000000;
+
+}

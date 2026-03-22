@@ -1,0 +1,228 @@
+{
+  "collections": {
+    "c1": {
+      "name": "Computer Village Hub",
+      "category": "Technology",
+      "location": "Ikeja, Lagos",
+      "description": "Wholesale import and distribution of smartphones, laptops, and accessories in the largest ICT hub.",
+      "maxApy": 15.5,
+      "minInvestment": 5000,
+      "riskLevel": "Medium",
+      "iconName": "devices",
+      "totalInvestors": 342,
+      "securityType": "Inventory Backed"
+    },
+    "c2": {
+      "name": "Alaba Electronics Syndicate",
+      "category": "Electronics",
+      "location": "Ojo, Lagos",
+      "description": "Partnership with major electronics importers sourcing direct from Asian manufacturers.",
+      "maxApy": 12.8,
+      "minInvestment": 2500,
+      "riskLevel": "Low",
+      "iconName": "tv",
+      "totalInvestors": 520,
+      "securityType": "Trade Credit"
+    },
+    "c3": {
+      "name": "Ariaria Manufacturers",
+      "category": "Manufacturing",
+      "location": "Aba, Abia",
+      "description": "\"Made in Aba\" leather works, shoe production, and textile export expansion.",
+      "maxApy": 18.0,
+      "minInvestment": 1500,
+      "riskLevel": "High",
+      "iconName": "factory",
+      "totalInvestors": 128,
+      "securityType": "Equipment Lien"
+    },
+    "c4": {
+      "name": "Wuse Trade Partners",
+      "category": "Retail",
+      "location": "Abuja, FCT",
+      "description": "High-end textile and fashion retail expansion in the capital city center.",
+      "maxApy": 10.5,
+      "minInvestment": 10000,
+      "riskLevel": "Low",
+      "iconName": "storefront",
+      "totalInvestors": 85,
+      "securityType": "Corporate Guarantee"
+    },
+    "c5": {
+      "name": "Dawanau Grain Merchants",
+      "category": "Agriculture",
+      "location": "Kano, Kano",
+      "description": "Largest grain market in West Africa, funding storage silos and logistics fleet.",
+      "maxApy": 14.2,
+      "minInvestment": 1000,
+      "riskLevel": "Medium",
+      "iconName": "grass",
+      "totalInvestors": 215,
+      "securityType": "Commodity Backed"
+    },
+    "c6": {
+      "name": "Onitsha Main Market",
+      "category": "Commerce",
+      "location": "Onitsha, Anambra",
+      "description": "General merchandise importation and distribution across Eastern Nigeria.",
+      "maxApy": 13.5,
+      "minInvestment": 3000,
+      "riskLevel": "Medium",
+      "iconName": "shopping_bag",
+      "totalInvestors": 180,
+      "securityType": "Inventory Backed"
+    },
+    "c7": {
+      "name": "Bodija Agro-Allied",
+      "category": "Agriculture",
+      "location": "Ibadan, Oyo",
+      "description": "Foodstuff supply chain connecting rural farms to urban centers in the South West.",
+      "maxApy": 11.5,
+      "minInvestment": 1500,
+      "riskLevel": "Low",
+      "iconName": "agriculture",
+      "totalInvestors": 410,
+      "securityType": "Trade Receivables"
+    },
+    "c8": {
+      "name": "Oil Services Supply",
+      "category": "Energy",
+      "location": "Port Harcourt, Rivers",
+      "description": "Equipment leasing and logistics support for offshore operations.",
+      "maxApy": 22.5,
+      "minInvestment": 20000,
+      "riskLevel": "High",
+      "iconName": "oil_barrel",
+      "totalInvestors": 45,
+      "securityType": "Asset Lease"
+    }
+  },
+  "clusters": {
+    "c1-30": {
+      "collectionId": "c1",
+      "durationDays": 30,
+      "targetApy": 10.9,
+      "minInvestment": 5000,
+      "fundingProgress": 65,
+      "status": "Open",
+      "description": "Short-term liquidity cycle for fast-moving consumer goods in Ikeja, Lagos.",
+      "startDate": "2023-11-01T00:00:00Z",
+      "maturityDate": "2023-12-01T00:00:00Z",
+      "payoutDate": "2023-12-03T00:00:00Z"
+    },
+    "c1-60": {
+      "collectionId": "c1",
+      "durationDays": 60,
+      "targetApy": 13.2,
+      "minInvestment": 7500,
+      "fundingProgress": 45,
+      "status": "Filling Fast",
+      "description": "Medium-term inventory restocking cycle targeting peak sales periods in Ikeja, Lagos.",
+      "startDate": "2023-11-05T00:00:00Z",
+      "maturityDate": "2024-01-04T00:00:00Z",
+      "payoutDate": "2024-01-06T00:00:00Z"
+    },
+    "c1-90": {
+      "collectionId": "c1",
+      "durationDays": 90,
+      "targetApy": 15.5,
+      "minInvestment": 10000,
+      "fundingProgress": 12,
+      "status": "Open",
+      "description": "Quarterly capital expansion cycle for infrastructure and bulk procurement in Ikeja, Lagos.",
+      "startDate": "2023-11-10T00:00:00Z",
+      "maturityDate": "2024-02-08T00:00:00Z",
+      "payoutDate": "2024-02-11T00:00:00Z"
+    },
+    "c2-30": {
+      "collectionId": "c2",
+      "durationDays": 30,
+      "targetApy": 9.0,
+      "minInvestment": 2500,
+      "fundingProgress": 88,
+      "status": "Filling Fast",
+      "description": "Short-term liquidity cycle for fast-moving consumer goods in Ojo, Lagos.",
+      "startDate": "2023-11-02T00:00:00Z",
+      "maturityDate": "2023-12-02T00:00:00Z",
+      "payoutDate": "2023-12-04T00:00:00Z"
+    },
+    "c3-90": {
+      "collectionId": "c3",
+      "durationDays": 90,
+      "targetApy": 18.0,
+      "minInvestment": 3000,
+      "fundingProgress": 25,
+      "status": "Open",
+      "description": "Quarterly capital expansion cycle for infrastructure and bulk procurement in Aba, Abia.",
+      "startDate": "2023-11-15T00:00:00Z",
+      "maturityDate": "2024-02-13T00:00:00Z",
+      "payoutDate": "2024-02-16T00:00:00Z"
+    }
+  },
+  "users": {
+    "user_001": {
+      "profile": {
+        "name": "Alex Johnson",
+        "email": "alex.johnson@example.com",
+        "tier": "Gold Investor",
+        "joinDate": "2023-01-15T00:00:00Z"
+      },
+      "wallet": {
+        "availableBalance": 2450.00,
+        "totalInvested": 125430.00,
+        "totalEarnings": 15880.00,
+        "currency": "USD"
+      },
+      "investments": {
+        "inv_1": {
+          "id": "1",
+          "clusterId": "c5-90",
+          "collectionName": "Kano Rice Mills",
+          "category": "Agriculture",
+          "status": "Pending",
+          "investedAmount": 15000,
+          "currentReturn": 1250,
+          "progress": 65,
+          "cycleDuration": "90 Days",
+          "startDate": "2023-09-01T00:00:00Z",
+          "maturityDate": "2023-11-30T00:00:00Z"
+        },
+        "inv_2": {
+          "id": "2",
+          "clusterId": "c3-30",
+          "collectionName": "Aba Textile Co.",
+          "category": "Manufacturing",
+          "status": "Active",
+          "investedAmount": 8500,
+          "currentReturn": 980,
+          "progress": 82,
+          "cycleDuration": "30 Days",
+          "startDate": "2023-10-01T00:00:00Z",
+          "maturityDate": "2023-10-31T00:00:00Z"
+        },
+        "inv_3": {
+          "id": "3",
+          "clusterId": "c1-60",
+          "collectionName": "Lekki Tech Hub",
+          "category": "Technology",
+          "status": "Active",
+          "investedAmount": 22000,
+          "currentReturn": 2130,
+          "progress": 45,
+          "cycleDuration": "60 Days",
+          "startDate": "2023-09-15T00:00:00Z",
+          "maturityDate": "2023-11-14T00:00:00Z"
+        }
+      },
+      "settings": {
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        },
+        "currency": "USD",
+        "theme": "dark"
+      }
+    }
+  }
+}

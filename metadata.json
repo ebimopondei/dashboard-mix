@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Investor Dashboard",
+  "description": "A dark-themed mobile-first investor dashboard tracking earnings, investments, and pool performance with real-time charts.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
